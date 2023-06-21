@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Clickable Planet Map</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>Click on the Planets and the Sun</h1>
+    <img src="https://img.freepik.com/free-vector/solar-system-astronomy-banner_1284-14637.jpg?w=1060&t=st=1687367751~exp=1687368351~hmac=e4f51f6affc31269e7123015309b94ab539521a9b77d5fcdf7a6a223231de1d1" alt="Planet Map" usemap="#planetmap">
 
+    <map name="planetmap">
+        <!-- Sun -->
+        <area shape="rect" coords="50,50,150,150" href="sun.html" alt="Sun">
+
+        <!-- Mercury -->
+        <area shape="circle" coords="200,150,20" href="mercury.html" alt="Mercury">
+
+        <!-- Venus -->
+        <area shape="circle" coords="280,200,25" href="venus.html" alt="Venus">
+
+        <!-- Earth -->
+        <area shape="circle" coords="360,250,30" href="earth.html" alt="Earth">
+
+        <!-- Mars -->
+        <area shape="circle" coords="440,300,25" href="mars.html" alt="Mars">
+
+        <!-- Jupiter -->
+        <area shape="circle" coords="540,350,45" href="jupiter.html" alt="Jupiter">
+
+        <!-- Saturn -->
+        <area shape="circle" coords="670,400,40" href="saturn.html" alt="Saturn">
+
+        <!-- Uranus -->
+        <area shape="circle" coords="800,450,35" href="uranus.html" alt="Uranus">
+
+        <!-- Neptune -->
+        <area shape="circle" coords="930,500,35" href="neptune.html" alt="Neptune">
+
+        <!-- Pluto (Dwarf Planet) -->
+        <area shape="circle" coords="1050,550,15" href="pluto.html" alt="Pluto">
+
+    </map>
 </body>
-
 </html>
